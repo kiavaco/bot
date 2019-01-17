@@ -1,6 +1,6 @@
 package.path = package.path..';.luarocks/share/lua/5.2/?.lua;.luarocks/share/lua/5.2/?/init.lua'
 package.cpath = package.cpath..';.luarocks/lib/lua/5.2/?.so'
-bot_token = "696041483:AAGLXbEHzlgm48FF6gFrOdGanrzwS1QrpMw" -- در اینجا توکن ربات api  را قرار دهید
+bot_token = "558252009:AAH48BoV7dh0KWX4TgPQWw5ahds2zSdZPuk" -- در اینجا توکن ربات api  را قرار دهید
 send_api = "https://api.telegram.org/bot"..bot_token
 sudo_id = 247134702 -- ایدی سودوی اصلی را قرار دهید
 MaTaDoRch = '@kiavair' -- یوزرنیم کانال خود را قرار دهید
@@ -163,7 +163,7 @@ function create_config( )
     enabled_plugins = {
     "MRCore"
     },
-    sudo_users = {247134702,774221427}, -- در اینجا آیدی ربات api و cli  و سودو ها را وارد کنید
+    sudo_users = {247134702,774221427,558252009}, -- در اینجا آیدی ربات api و cli  و سودو ها را وارد کنید
     admins = {},
     disabled_channels = {},
     moderation = {data = ''..MaTaDoRTeaM..'/data/moderation.json'},
