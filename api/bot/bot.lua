@@ -163,7 +163,7 @@ function create_config( )
     enabled_plugins = {
     "MRCore"
     },
-    sudo_users = {247134702,247134702}, -- در اینجا آیدی ربات api و cli  و سودو ها را وارد کنید
+    sudo_users = {247134702,774221427}, -- در اینجا آیدی ربات api و cli  و سودو ها را وارد کنید
     admins = {},
     disabled_channels = {},
     moderation = {data = ''..MaTaDoRTeaM..'/data/moderation.json'},
