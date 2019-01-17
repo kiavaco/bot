@@ -15,14 +15,14 @@ local notify = lgi.require('Notify')
 notify.init ("Telegram updates")
 chats = {}
 plugins = {}
-MaTaDoR_sudo = 377450049 -- ایدی سودوی اصلی را قرار دهید
+MaTaDoR_sudo = 247134702 -- ایدی سودوی اصلی را قرار دهید
 GpsidSudo = -1001137329081
-bot_id = 385397250 -- ایدی ربات را قرار دهید
-helper_id = 474570652 -- ایدی ربات api را قرار دهید
-MaTaDoRch = '@MaTaDoRTeaM' -- یوزرنیم کانال خود را قرار دهید
-MaTaDoRby = '@MahDiRoO' -- یوزرنیم خود را قرار دهید
-MaTaDoRbybot = '@MahDiRoO_BoT'  -- یوزرنیم پیام رسان خود را قرار دهید
-paypinglink = 'Mahdiroo' -- لینک payping  خود را قرار دهید
+bot_id = 774221427 -- ایدی ربات را قرار دهید
+helper_id = 696041483 -- ایدی ربات api را قرار دهید
+MaTaDoRch = '@kiavair' -- یوزرنیم کانال خود را قرار دهید
+MaTaDoRby = '@kiavaco' -- یوزرنیم خود را قرار دهید
+MaTaDoRbybot = '@kiavaco'  -- یوزرنیم پیام رسان خود را قرار دهید
+paypinglink = 'kiava' -- لینک payping  خود را قرار دهید
 paypingname = 'مهدی محسنی' -- اسم خود را وارد نماید
 
 function do_notify (user, msg)
