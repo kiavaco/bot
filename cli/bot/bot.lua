@@ -18,7 +18,7 @@ plugins = {}
 MaTaDoR_sudo = 247134702 -- ایدی سودوی اصلی را قرار دهید
 GpsidSudo = -1001448079666
 bot_id = 774221427 -- ایدی ربات را قرار دهید
-helper_id = 696041483 -- ایدی ربات api را قرار دهید
+helper_id = 558252009 -- ایدی ربات api را قرار دهید
 MaTaDoRch = '@kiavair' -- یوزرنیم کانال خود را قرار دهید
 MaTaDoRby = '@kiavaco' -- یوزرنیم خود را قرار دهید
 MaTaDoRbybot = '@kiavaco'  -- یوزرنیم پیام رسان خود را قرار دهید
@@ -92,7 +92,7 @@ function create_config( )
     "Monshi",
 	"Rank"
 	},
-    sudo_users = {247134702,774221427,696041483}, -- در اینجا آیدی ربات api و cli  و سودو ها را وارد کنید
+    sudo_users = {247134702,774221427,558252009}, -- در اینجا آیدی ربات api و cli  و سودو ها را وارد کنید
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
