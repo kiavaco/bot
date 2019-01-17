@@ -1,10 +1,10 @@
 package.path = package.path..';.luarocks/share/lua/5.2/?.lua;.luarocks/share/lua/5.2/?/init.lua'
 package.cpath = package.cpath..';.luarocks/lib/lua/5.2/?.so'
-bot_token = "474570652:AAFVTqOFLwYRQZvUO_7OpbsTDaCvhhzWVAI" -- در اینجا توکن ربات api  را قرار دهید
+bot_token = "696041483:AAGLXbEHzlgm48FF6gFrOdGanrzwS1QrpMw" -- در اینجا توکن ربات api  را قرار دهید
 send_api = "https://api.telegram.org/bot"..bot_token
-sudo_id = 377450049 -- ایدی سودوی اصلی را قرار دهید
-MaTaDoRch = '@MaTaDoRTeaM' -- یوزرنیم کانال خود را قرار دهید
-MaTaDoRby = '@MahDiRoO' -- یوزرنیم خود را قرار دهید
+sudo_id = 247134702 -- ایدی سودوی اصلی را قرار دهید
+MaTaDoRch = '@kiavair' -- یوزرنیم کانال خود را قرار دهید
+MaTaDoRby = '@kiavaco' -- یوزرنیم خود را قرار دهید
 require('./bot/methods')
 require('./bot/utils')
 require('./libs/JSON')
@@ -154,16 +154,16 @@ function create_config( )
 	server_user = string.gsub(server_user, '%s+$', '')
 	server_user = string.gsub(server_user, '[\n\r]+', ' ') 
 	if server_user:match("^root$") then
-		MaTaDoRTeaM = '/root/MaTaDoR/cli'
+		MaTaDoRTeaM = '/root/bot/cli'
 	elseif not server_user:match("^root$") then
-		MaTaDoRTeaM = '/home/'..server_user..'/MaTaDoR/cli'
+		MaTaDoRTeaM = '/home/'..server_user..'/bot/cli'
 	end
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
     "MRCore"
     },
-    sudo_users = {385397250,474570652,385486291,400126262,97476012}, -- در اینجا آیدی ربات api و cli  و سودو ها را وارد کنید
+    sudo_users = {247134702,247134702}, -- در اینجا آیدی ربات api و cli  و سودو ها را وارد کنید
     admins = {},
     disabled_channels = {},
     moderation = {data = ''..MaTaDoRTeaM..'/data/moderation.json'},
