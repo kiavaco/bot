@@ -80,6 +80,7 @@ function create_config( )
     enabled_plugins = {
 	"MRCore",
     "Msg",
+			"fun",
     "BanHammer",
     "Plugins",
     "Administrative",
